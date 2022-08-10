@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Ensamble de tarjetas electrónicas según especificaciones y normativa técnica.'

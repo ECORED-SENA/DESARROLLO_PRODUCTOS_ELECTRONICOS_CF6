@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 4%
+    right: 62%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 61%
+    right: 10%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 42%
+    right: 91%
 
 @keyframes float1
   0%
@@ -17,3 +21,95 @@
 
   100%
     transform: translateY(0px)
+
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    //background-image: url("../assets/curso/introduccion/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      //background-image: url("../assets/curso/introduccion/fondo1.svg")
+//COLOR CONTENIDOS Y TEXTO//
+.colr
+  color: #A50491
+  //FONDOS//
+.bgr
+  background-color: #D9F8F2
+  &::before
+    background-color: #00CCA7
+  &_1
+    background-color: #A1008D
+//POSICION EN PANTALLA//
+.pst
+  position: absolute
+  top: 16px
+  left: -10px
+  &_1
+    position: absolute
+    bottom: 30px
+    right: 56%
+    @media screen and (max-width: 992px)
+      right: 23%
+  &_2
+    font-size: 0.8em

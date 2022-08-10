@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF6 - 224204 Desarrollo de productos electrónicos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/DESARROLLO_PRODUCTOS_ELECTRONICOS_CF6/](https://ecored-sena.github.io/DESARROLLO_PRODUCTOS_ELECTRONICOS_CF6/)
 
 #
 
