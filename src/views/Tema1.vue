@@ -225,7 +225,7 @@
       h2 1.2 Técnicas y sistemas de microscopía óptica y ampliación de imágenes
     
     .row.mb-5
-      .col-12.col-md-6(data-aos="fade-right")
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         .cajon.bgr_2.p-5.mb-3
           p.mb-0 Antes de realizar el ensamble, es necesario inspeccionar el PCB, en busca de posibles fallas de fabricación o defectos que pueden llegar a afectar su correcto funcionamiento, para ello existen diferentes equipos. Una vez  ensamblada, es necesario realizar nuevamente una revisión minuciosa de la misma.
         .row

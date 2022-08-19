@@ -25,13 +25,13 @@
           img(src='@/assets/curso/introduccion/img2.svg', alt='Texto que describa la imagen')
     
     .row
-      .col-12.col-md-7.d-flex.align-items-center(data-aos="fade-right")
+      .col-12.col-md-7.d-flex.align-items-center.mb-3.mb-md-0(data-aos="fade-right")
         div  
           .cajon.bgr.p-4.mb-3
             .row
-              .col-12.col-md-3
-                figure
-                  img(src='@/assets/curso/introduccion/img3.svg', alt='Texto que describa la imagen')
+              .col-12.col-md-3.mb-3.mb-md-0
+                figure.d-flex.justify-content-center
+                  img.img90(src='@/assets/curso/introduccion/img3.svg', alt='Texto que describa la imagen')
               .col-12.col-md-9.d-flex.align-items-center
                 p.mb-0 El ensamble de tarjetas electrónicas requiere de técnicas adecuadas y de la aplicación de normas de calidad que aseguren que este proceso cumpla con los parámetros solicitados.
           

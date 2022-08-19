@@ -41,14 +41,14 @@
         p.mb-0 La capa intermetálica es una microfusión del estaño y el metal sobre el que se está soldando, que puede ser la pista de cobre o el pin de un componente.
 
     .row.mb-5
-      .col-12.col-md-1
-        figure
-          img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
+      .col-12.col-md-1.mb-3.mb-md-0
+        figure.d-flex.justify-content-center
+          img.img90(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
       .col-12.col-md-11
         span Una soldadura bien adherida requiere, según Microensamble (2016), de lo siguiente: 
         span.colr.text-bold “su componente primario debe disolver parte del metal de la superficie donde se va a soldar. Este proceso forma una capa compuesta básicamente por una aleación de los dos metales a unir, recibiendo el nombre de intermetálicos”.
     
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="flip-right")
       .col-12.col-md-10
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -66,13 +66,13 @@
                   span Nota. Tomada de Microensamble (2016). 
     
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-up-right")
         p La soldadura con plomo está compuesta en un 63% de estaño con un contenido de 37% de plomo, también existe una proporción de 60/40 de estaño – plomo. Aunque aún se encuentra comercialmente esta soldadura, está destinada a desaparecer porque el plomo es un elemento altamente tóxico para el hombre y la naturaleza, mientras la soldadura sin plomo  es una soldadura que no tiene ese inconveniente y, por lo tanto, se ha venido posicionando cada vez más en la producción de todo tipo de equipos electrónicos.
         .cajon.bgr_2.p-4.mb-3
           p.mb-0 Según Microensamble (2016): “existe una gran variedad de soldaduras que no contienen plomo, como las aleaciones SnAg3.5 y Sn96.5Ag3Cu0.5 (SAC 305), entre otras ”
         span Ahora bien, dejando a un lado el aspecto químico, 
         span.colr.text-bold lo más importante aquí es tener en cuenta la temperatura a la cual se funden estos dos tipos de soldadura, lo cual genera una de las diferencias más trascendentales a la hora de ensamblar o planear una producción. 
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-up-left")
         figure
           img(src='@/assets/curso/tema2/t2-6.png', alt='Texto que describa la imagen')
     
@@ -96,24 +96,24 @@
       span Uso de los tipos de soldadura
     
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         figure
           img(src='@/assets/curso/tema2/t2-8.png', alt='Texto que describa la imagen')
         .bgr_14.p-4.text-center
           p.mb-0 El alambre blando es el indicado para el ensamble manual.
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
         figure
           img(src='@/assets/curso/tema2/t2-9.png', alt='Texto que describa la imagen')
         .bgr_14.p-4.text-center
           p.mb-0 La soldadura en pasta es indicada para componentes que se van a soldar con horno de reflujo.
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="flip-up")
         figure
           img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
         .bgr_14.p-4.text-center
           p.mb-0 El lingote de soldadura es el insumo que alimenta un equipo de soldadura por ola.
 
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-3.mb-md-0
         figure
           img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
       .col-12.col-md-6
@@ -138,14 +138,14 @@
       h5 Figura 12.
       span Limpieza de soldadura
     
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-8
         figure
           img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
     
     p.mb-5 Las presentaciones comerciales de los fundentes conocidos comúnmente como FLUX son muy variadas, ya que hay desde aerosoles, geles y líquidos, hasta presentaciones en polvo. La selección de cada presentación depende del tipo de ensamble que se hará, es decir si este es automatizado o manual.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-out")
       .col-12.col-md-10
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -173,41 +173,41 @@
     p.mb-5.text-bold Procedimiento para soldar piezas con estaño
 
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
         LineaTiempoD.color-primario
           .row(numero="A" titulo="Limpieza de las superficies")
             .col-md-8.mb-4.mb-md-0
               p Las dos superficies a soldar deben estar limpias y libres de cualquier tipo de impureza, en especial grasas u óxido.
             .col-md-3
-              figure
-                img(src='@/assets/curso/tema2/t2-16.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img120(src='@/assets/curso/tema2/t2-16.svg', alt='Texto que describa la imagen')
           .row(numero="B" titulo="Unión de las piezas")
             .col-md-8.mb-4.mb-md-0
               p Ya sea un componente posicionado en la tarjeta o dos cables entorchados, previo a aplicar la soldadura, las piezas deben estar juntas y en contacto mecánico,
             .col-md-3
-              figure
-                img(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img120(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
           .row(numero="C" titulo="Aplicación del fundente")
             .col-md-8.mb-4.mb-md-0
               p Este paso, dependiendo del caso, puede ir previamente, ya que el fundente se aplica justo antes de soldar y no puede permanecer por mucho tiempo aplicado, pues puede llegar a corroer lo metales. En el caso de las tarjetas de montaje superficial, este se aplica previo al posicionamiento de los componentes.
             .col-md-3
-              figure
-                img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img120(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
           .row(numero="D" titulo="Se aplica temperatura a la unión de las partes")
             .col-md-8.mb-4.mb-md-0
               p Dependiendo del tipo de soldadura aplicada, se ajusta la temperatura del elemento calefactor, ya sea horno o punta de mango soldador, teniendo en cuenta si es soldadura con o sin plomo.
             .col-md-3
-              figure
-                img(src='@/assets/curso/tema2/t2-19.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img120(src='@/assets/curso/tema2/t2-19.svg', alt='Texto que describa la imagen')
           .row(numero="E" titulo="Aplicación de la soldadura")
             .col-md-8.mb-4.mb-md-0
               p Se aplica la soldadura formando un puente entre las partes y el elemento calefactor; en el caso de la soldadura manual, con mango soldador o cautín, en los casos industrializados, se aplica por una pequeña ola de estaño fundido.
               P Si la soldadura es hecha en un horno de reflujo, al aplicar el flux o fundente, también se aplica una delgada capa de soldadura, pero en pasta.
             .col-md-3
-              figure
-                img(src='@/assets/curso/tema2/t2-20.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img120(src='@/assets/curso/tema2/t2-20.svg', alt='Texto que describa la imagen')
       
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-15.png', alt='Texto que describa la imagen')
       
@@ -247,18 +247,18 @@
       h2 2.3 Características de soldabilidad
     
     .row.mb-5
-      .col-12.col-md-6.mb-3.mb-md-0
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-left")
         p.mb-5 En general el estaño es un material soldable al cobre, bronce y a la chapa de hierro; y aunque es válido tenerlo presente, no es una propiedad relevante,  ya que todos los materiales usados en los ensambles electrónicos están diseñados para asegurar la solubilidad con el estaño. 
         .cajon.bgr_2.p-4
           p Lo que sí se debe tener en cuenta es que esta propiedad puede llegar a perderse por culpa de contaminantes tan comunes como el sudor humano, el polvo y la corrosión generada por la humedad; por lo tanto, los componentes electrónicos y las tarjetas deben estar almacenados por corto tiempo y, en caso de que deban permanecer por largos periodos, se recomienda usar indicadores de humedad y un correcto almacenaje, así como manipulación por parte del ensamblador, quien debe usar siempre guantes de nitrilo para que no se transfieran impurezas a las tarjetas ni a los componentes.
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-25.png', alt='Texto que describa la imagen')
     
     .row
-      .col-12.col-md-1
-        figure
-          img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
+      .col-12.col-md-1.mb-3.mb-md-0
+        figure.d-flex.justify-content-center
+          img.img90(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
       .col-12.col-md-11
         span.colr.text-bold Un consejo muy útil es que, en caso de que los componentes o la tarjeta hayan sufrido contaminación, se deben limpiar con alcohol isopropílico.
         | También algunos pines de considerable tamaño, como los de las borneras, pueden ser ligeramente raspados con la ayuda de un bisturí, antes de proceder a hacer la soldadura. Este último procedimiento no es recomendado con componentes nuevos y sellados.
@@ -271,10 +271,10 @@
     p.mb-5 Así como el proceso de ubicar los componentes y soldarlos es crucial en el ensamble, el proceso de retiro de excesos de soldadura y la limpieza de impurezas posterior también es de vital importancia, ya que los restos de fundente son extremadamente peligrosos, especialmente de aquellos con mayor capacidad. 
 
     .row  
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-27.png', alt='Texto que describa la imagen')
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         .bgr_5.p-4.mb-3
           p.mb-0 Desafortunadamente, los mejores fundentes son extremadamente resinosos (grasosos) y,  al enfriarse, se vuelven conductores, generando resistencias parásitas y cortos dentro de la placa ensamblada .
         p A nivel industrial, se usan lavadoras que utilizan ultrasonido, combinado con alcohol isopropílico, para limpiar las impurezas. Su funcionamiento es muy simple, en realidad. Se trata de un receptáculo metálico que puede vibrar a muy altas frecuencias; dentro de este, se pone una cantidad de alcohol que apenas cubre las tarjetas que son puestas allí; la lavadora, al vibrar, genera ondas dentro del alcohol que disuelven y desprenden las impurezas.

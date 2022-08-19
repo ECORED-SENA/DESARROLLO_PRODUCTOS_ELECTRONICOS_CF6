@@ -47,12 +47,6 @@ const router = new VueRouter({
       ],
     },
     {
-      path: '/actividad',
-      name: 'actividad',
-      component: () =>
-        import(/* webpackChunkName: "actividad" */ '../views/Actividad.vue'),
-    },
-    {
       path: '/glosario',
       name: 'glosario',
       component: () =>

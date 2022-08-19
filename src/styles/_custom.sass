@@ -175,8 +175,6 @@
     height: 120px
     &:hover
       background-color: #C2F3EB
-    @media screen and (max-width: 420px)
-      height: 100%
   &_15
     background-image: url("../assets/curso/tema2/fondo1.png")
     background-repeat: no-repeat
@@ -202,6 +200,28 @@
       top: 315px !important
       div
         width: 1000px
+      @media screen and (max-width: 420px)
+        left: -3% !important
+        top: 180px !important
+        div
+          width: 400px
+      @media screen and (max-width: 992px)
+        left: -27% !important
+        top: 180px !important
+        div
+          width: 900px
+        
+  &_4
+    &::after
+      width: 3px
+      height: 25px
+      top: 35px
+      left: 15px
+      background-color: #12263F
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
 
 //CLASES REENPLAZADAS//
 .lista-ol--cuadro__vineta
