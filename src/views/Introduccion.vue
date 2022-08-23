@@ -16,7 +16,7 @@
     p.mb-5 A continuación, se expone un proceso general de ensamble de tarjetas electrónicas.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-        h5 Figura 1.
+        h5 Figura 1
         span Proceso de ensamble
 
     .row.mb-5.justify-content-center(data-aos="zoom-in")

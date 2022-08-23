@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Planificación del ensamble de tarjetas electrónicas
     
     .row.mb-5
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
@@ -22,7 +22,7 @@
             p.mb-0 La planificación requiere que se tenga un conocimiento amplio de la naturaleza de la tarjeta a ensamblar, es necesario contar con los planos y la documentación completa del proyecto, tal como se observa en la figura.
     
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 2.
+      h5 Figura 2
       span Planificación del ensamble
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -45,7 +45,7 @@
           img(src='@/assets/curso/tema1/t1-4.png', alt='Texto que describa la imagen')
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 3.
+      h5 Figura 3
       span Equipos destacados
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -83,7 +83,7 @@
     p.mb-5 En la siguiente imagen, se pueden observar varios tipos de estaciones de soldadura electrónica.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 4.
+      h5 Figura 4
       span Tipos de estaciones de soldadura electrónica
     .bg_grad-02
       .row.mb-5.justify-content-center
@@ -129,7 +129,7 @@
           p.mb-0 Los perfiles son muy similares y tienen como objeto hacer un control preciso de la temperatura, para asegurar una correcta soldadura protegiendo así la integridad de los componentes. La siguiente imagen presenta una estructura básica de un perfil.
  
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 5.
+      h5 Figura 5
       span Perfil de temperatura
     .bg_grad-03
       .row.mb-5.justify-content-center.mb-5
@@ -140,6 +140,9 @@
     .row.mb-5
       .col-12.col-md-8.mb-3.mb-md-0
         p Existen hornos de reflujo prácticamente de todos los tipos, pero en general todos funcionan igual y su perfil es parecido al mostrado en la figura anterior. Los hornos de tipo industrial cuentan con una banda que mueve las tarjetas por diferentes zonas de calentamiento, de forma que aseguran la ejecución del perfil y permiten procesar una gran cantidad de tarjetas al mismo tiempo, generando un proceso continuo y en serie.
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
+          h5 Figura 6
+          span Hornos de reflujo
         #carouselExampleIndicators.carousel.slide.pst_1(data-bs-ride='carousel')
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
@@ -178,7 +181,7 @@
           p También, dentro del equipo, hay un sistema de rieles que mueven constantemente los lotes de tarjetas, las cuales ya tienen previamente insertados y acomodados los componentes. Las tarjetas pasan por la sección donde se les aplica el fundente y, luego, por la ola de estaño, la cual suelda instantáneamente los componentes de una manera muy eficiente; la gravedad se encarga de retirar el exceso de temperatura.
     
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 6.
+      h5 Figura 7
       span Estructura del equipo de soldadura por ola
     .row.mb-5.justify-content-center.mb-5
       .col-12.col-md-10
@@ -197,14 +200,18 @@
     .bgr_3.p-2.mb-5(data-aos="fade-down-right")
       h4.mb-0 d. Máquinas de posicionamiento automático de componentes 
     
-    p.mb-5 Las máquinas automatizadas, mejor conocidas como Pick and Place, son máquinas que, mediante el uso de uno de los archivos generados en el diseño de la tarjeta, están en capacidad de posicionar de manera automática los componentes en la tarjeta. 
+    p.mb-5 Las máquinas automatizadas, mejor conocidas como <em>Pick and Place</em>, son máquinas que, mediante el uso de uno de los archivos generados en el diseño de la tarjeta, están en capacidad de posicionar de manera automática los componentes en la tarjeta. 
+
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+      h5 Figura 8
+      span Típica máquina <em>Pick and Place</em> en funcionamiento
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-20.png')})`}"
       )
       .bloque-texto-g__texto.p-5
-        h4 Típica máquina Pick and Place en funcionamiento
+        h4 Típica máquina <em>Pick and Place</em> en funcionamiento
         br
         br
         p Estos equipos son usados, esencialmente, cuando hay en su mayoría componentes de superficie que por su tamaño se hace más complejo su posicionamiento .
@@ -212,7 +219,7 @@
     p.mb-5 La siguiente figura presenta el proceso que realiza este tipo de equipo
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 7.
+      h5 Figura 9
       span Proceso de una máquina de posicionamiento automático
     .row.mb-5.justify-content-center.mb-5(data-aos="flip-left")
       .col-12.col-md-8
@@ -251,7 +258,7 @@
             h4.mb-0 Aumento visual para inspección (ancho de pistas)
           table.pst_2
             tr.bgr_7
-              th(rowspan="2") Ancho de pistas o diámetro de pads1
+              th(rowspan="2") Ancho de pistas o diámetro de <em>pads1</em>
               th(colspan="2").text-center Potencia de aumento visual
             tr
               th.text-center Rango de inspección
@@ -291,9 +298,9 @@
           table.pst_2
             tr
               td.text-center Limpieza (con o sin procesos de limpieza)
-              td.text-center No se requiere aumento visual. Ver Nota 1
+              td.text-center No se requiere aumento visual. Ver nota 1
             tr
-              td.text-center Limpieza <em>(procesos no-clean)</em>
+              td.text-center Limpieza (procesos <em>no-clean</em>)
               td.text-center Nota 1
             tr
               td.text-center Recubrimientos conformal y encapsulados
@@ -305,9 +312,9 @@
               td.text-center Otros (daños a componentes y alambres, etc.)
               td.text-center Nota 1
             tr
-              td(colspan="2") Nota 1: La inspección visual puede requerir el uso de un aumento visual; por ejemplo, cuando está presente un fine pitch, o un ensamble de alta densidad, pudiera ser necesaria la ayuda de un aumento visual mayor, para determinar si hay una contaminación que afecte forma, ajuste o función.
+              td(colspan="2") Nota 1: la inspección visual puede requerir el uso de un aumento visual; por ejemplo, cuando está presente un <em>fine pitch</em>, o un ensamble de alta densidad, pudiera ser necesaria la ayuda de un aumento visual mayor, para determinar si hay una contaminación que afecte forma, ajuste o función.
             tr  
-              td(colspan="2") Nota 2: Si se utiliza aumento visual, está limitado a 4X máximo.
+              td(colspan="2") Nota 2: si se utiliza aumento visual, está limitado a 4X máximo.
     
     .cajon.bgr.mb-5.p-4
       .row
@@ -328,7 +335,7 @@
       SlyderA.bgr_9(tipo="b")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            h4.mb-5 Pinzas de punta planas 
+            h4.mb-5 Pinzas de puntas planas 
             p Estas pinzas tienen como propósito el agarre de piezas relativamente pequeñas. En ensamble electrónico, lo recomendado es que su punta sea completamente lisa.
           .col-md-7
             figure
@@ -393,7 +400,7 @@
         .cajon.bgr_2.p-4.mb-3
           p.mb-0 No existe gran literatura acerca de las técnicas más adecuadas, las normas solo nos hablan de cómo debe quedar el resultado final y los criterios para determinar los defectos del ensamble en aspectos como la orientación de los componentes, la limpieza, aspectos eléctricos, entre otros .
         p Vale la pena resaltar que, luego de inspeccionar las tarjetas a ensamblar en busca de defectos, el paso a seguir es realizar una correcta limpieza de la tarjeta, con alcohol isopropílico; después, se procede a hacer el alistamiento de la documentación necesaria para el ensamble. Es necesario tener disponibles los planos esquemáticos y los diagramas de posicionamiento de los componentes, brindados por el diseñador; estos serán la guía para el ensamblador, ya que le brindarán la información requerida para posicionar cada uno de los componentes.
-        span.colr.text-bold En procesos industriales, las máquinas de posicionamiento automático, o Pick and Place, se alimentan de los archivos digitales del diseño para realizar esta tarea de forma automática. 
+        span.colr.text-bold En procesos industriales, las máquinas de posicionamiento automático, o <em>Pick and Place</em>, se alimentan de los archivos digitales del diseño para realizar esta tarea de forma automática. 
       .col-12.col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-33.png', alt='Texto que describa la imagen')
@@ -422,7 +429,7 @@
             | Hay que comenzar por hacer el alistamiento de cada componente a ubicar y soldar. Para elementos axiales, como las resistencias, asegúrese de que el doblez de los pines de conexión cumpla con el estándar IPC. Es recomendable que antes de insertarlos en la tarjeta se limpien los pines con un poco de alcohol isopropílico, para retirar cualquier impureza que pueda afectar la soldadura del mismo.
 
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-          h5 Figura 8.
+          h5 Figura 10
           span Doblez recomendado de los elementos de tipo axial
         .row.mb-5.justify-content-center.mb-5
           .col-12.col-md-8
@@ -435,7 +442,7 @@
             | Ubicar primero los elementos más cortos en el espacio vertical, es decir, entre una resistencia y un condensador, el orden de ensamble sería: primero la resistencia y luego el condensador. 
 
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-          h5 Figura 9.
+          h5 Figura 11
           span Orden de ensamble de acuerdo con su altura
         .row.mb-5.justify-content-center.mb-5
           .col-12.col-md-8
@@ -463,7 +470,7 @@
             | Se sugiere ubicar y soldar primero los componentes con mayor cantidad de pines, es decir, entre un transistor de tres pines y un integrado de 16 pines primero se ensambla el integrado y luego el transistor.
 
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-          h5 Figura 10.
+          h5 Figura 12
           span Orden de ensamble de acuerdo con su cantidad de pines.
         .row.mb-5.justify-content-center.mb-5
           .col-12.col-md-8

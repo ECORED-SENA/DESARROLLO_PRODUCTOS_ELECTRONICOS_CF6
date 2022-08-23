@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Ensamble de tarjetas electrónicas según especificaciones y normativa técnica.',
+      'Ensamble de tarjetas electrónicas según especificaciones y normativa técnica',
     descripcionCurso:
       'Este componente formativo presenta los conceptos básicos acerca del ensamble de tarjetas electrónicas, teniendo en cuenta las normas internacionales relacionadas con el ensamble electrónico, además de revisar aspectos de la producción de tarjetas electrónicas que son necesarios.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
@@ -347,23 +347,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Maria Eugenia Mejia Lopez ',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

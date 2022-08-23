@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Tratamiento térmico
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
@@ -71,7 +71,7 @@
     p.mb-5 El proceso completo puede ilustrarse con la siguiente figura, donde se ve la secuencia completa.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in")
-      h5 Figura 13.
+      h5 Figura 16
       span Proceso de reflujo e inspección de calidad
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -81,8 +81,8 @@
     
     separador
 
-    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.4 Perfil ideal de temperatura
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.3 Perfil ideal de temperatura
     
     .row.mb-5
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
@@ -108,14 +108,14 @@
 
           .tarjeta.color-acento-botones.p-4(x="37%" y="76%" numero="+")
             .pst_4
-            p En la <b>zona de activación</b> es donde literalmente se activa el proceso, ya que el fundente, al calentarse, protege la unión del óxido y los componentes alcanzan un temperatura segura para reducir la tensión superficial. Idealmente, esta parte de la gráfica debería permanecer prácticamente plana, es decir, a una temperatura constante en este periodo de tiempo.
-            p.mb-0 En esta zona, puede suceder que, en vez de mantenerse estable la temperatura, esta baje, afectando la activación del flux y, por ende, el calentamiento requerido de los componentes para llegar adecuadamente a la zona de reflow. Esto produce soldaduras frías, que pueden generar grietas en la unión,
+            p En la <b>zona de activación</b> es donde literalmente se activa el proceso, ya que el fundente, al calentarse, protege la unión del óxido y los componentes alcanzan un temperatura segura para reducir la tensión superficial. Idealmente, esta parte de la gráfica debería permanecer prácticamente plana, es decir, a una temperatura constante en este período de tiempo.
+            p.mb-0 En esta zona, puede suceder que, en vez de mantenerse estable la temperatura, esta baje, afectando la activación del <em>flux</em> y, por ende, el calentamiento requerido de los componentes para llegar adecuadamente a la zona de reflow. Esto produce soldaduras frías, que pueden generar grietas en la unión.
 
           .tarjeta.color-acento-botones.p-4(x="54.5%" y="76%" numero="+")
             .pst_4
             p <b>La zona de fundición o de <em>reflow</em></b> es donde la curva alcanza su máximo pico y este no debería exceder ni en temperatura ni en tiempo las recomendaciones de los fabricantes.
             p En este punto es donde se funde la soldadura y la tensión superficial es la adecuada para lograr la unión, y la capa intermetálica se forma.
-            p.mb-0 Sin embargo, también en la zona de reflow, una excesiva temperatura podría literalmente generar una carbonización de los puntos de soldadura y, en algunos casos, puede generar el levantamiento de las pistas de la PCB.
+            p.mb-0 Sin embargo, también en la zona de <em>reflow</em>, una excesiva temperatura podría literalmente generar una carbonización de los puntos de soldadura y, en algunos casos, puede generar el levantamiento de las pistas de la PCB.
 
           .tarjeta.color-acento-botones.p-4(x="70%" y="76%" numero="+")
             .pst_4

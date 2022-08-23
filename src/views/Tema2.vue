@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Soldadura en electrónica
     
     span La soldadura tiene un propósito doble. Por un lado, 
     span.colr.text-bold provee la conexión eléctrica efectiva entre los componentes, 
@@ -92,7 +92,7 @@
     p.mb-5 La presentación de la soldadura también permite una clasificación, ya que existen soldaduras en alambre blando, soldaduras en pasta y lingotes de soldadura. Dependiendo de la manera como se ensamblen las tarjetas se requerirá uno u otro, tal como se aprecia en la siguiente figura.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 11.
+      h5 Figura 13
       span Uso de los tipos de soldadura
     
     .row.mb-5
@@ -132,10 +132,10 @@
             figure.d-flex.justify-content-center
               img.img90(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
           .col-12.col-md-10
-            p Estos fundentes pueden clasificarse básicamente en dos tipos: los que contienen colofonia (un tipo de resina) y los que no la contienen. También, podría decirse que uno es del tipo No clean, es decir, que no requiere limpieza, y el que requiere limpieza por tener colofonia. 
+            p Estos fundentes pueden clasificarse básicamente en dos tipos: los que contienen colofonia (un tipo de resina) y los que no la contienen. También, podría decirse que uno es del tipo No <em>clean</em>, es decir, que no requiere limpieza, y el que requiere limpieza por tener colofonia. 
     
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 12.
+      h5 Figura 14
       span Limpieza de soldadura
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -143,7 +143,7 @@
         figure
           img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
     
-    p.mb-5 Las presentaciones comerciales de los fundentes conocidos comúnmente como FLUX son muy variadas, ya que hay desde aerosoles, geles y líquidos, hasta presentaciones en polvo. La selección de cada presentación depende del tipo de ensamble que se hará, es decir si este es automatizado o manual.
+    p.mb-5 Las presentaciones comerciales de los fundentes conocidos comúnmente como <em>FLUX</em> son muy variadas, ya que hay desde aerosoles, geles y líquidos, hasta presentaciones en polvo. La selección de cada presentación depende del tipo de ensamble que se hará, es decir si este es automatizado o manual.
 
     .row.justify-content-center(data-aos="zoom-out")
       .col-12.col-md-10
@@ -158,7 +158,7 @@
                   figure.p-5
                     img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
               tr
-                td.bgr_12 En el mercado podemos encontrar presentaciones en jeringa, botes y hasta en lápiz tipo marcador que permite, literalmente, pintar las pistas con la cantidad de flux necesaria .
+                td.bgr_12 En el mercado podemos encontrar presentaciones en jeringa, botes y hasta en lápiz tipo marcador que permite, literalmente, pintar las pistas con la cantidad de <em>flux</em> necesaria .
                   br
                   br
                   p.mb-0.text-center Nota. Tomada de MovilOne (2018).  
@@ -170,7 +170,9 @@
     
     p El procedimiento general de la soldadura es el mismo, pero se debe tener en cuenta, como siempre, si este es automático o si es manual. En general, el procedimiento para soldar dos piezas se expone en la siguiente figura.
 
-    p.mb-5.text-bold Procedimiento para soldar piezas con estaño
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+      h5 Figura 15
+      span Procedimiento para soldar piezas con estaño
 
     .row.mb-5
       .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
@@ -189,7 +191,7 @@
                 img.img120(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
           .row(numero="C" titulo="Aplicación del fundente")
             .col-md-8.mb-4.mb-md-0
-              p Este paso, dependiendo del caso, puede ir previamente, ya que el fundente se aplica justo antes de soldar y no puede permanecer por mucho tiempo aplicado, pues puede llegar a corroer lo metales. En el caso de las tarjetas de montaje superficial, este se aplica previo al posicionamiento de los componentes.
+              p Este paso, dependiendo del caso, puede ir previamente, ya que el fundente se aplica justo antes de soldar y no puede permanecer por mucho tiempo aplicado, pues puede llegar a corroer los metales. En el caso de las tarjetas de montaje superficial, este se aplica previo al posicionamiento de los componentes.
             .col-md-3
               figure.d-flex.justify-content-center
                 img.img120(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
