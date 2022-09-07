@@ -96,7 +96,7 @@
               figure
                 img(src='@/assets/curso/tema1/t1-10.png', alt='Texto que describa la imagen')
             Audio.color-acento-contenido.mx-3.pst(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/1.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
