@@ -109,7 +109,7 @@
           figure.d-flex.justify-content-center
             img.img90(src='@/assets/curso/tema1/t1-11.svg', alt='Texto que describa la imagen')
         .col-12.col-md-10.d-flex.align-items-center
-          p.mb-0 Es necesario que cada vez que el mango pierde poder de succión, se extraiga este filtro, se desocupe y se limpie, para evitar su avería .
+          p.mb-0 Es necesario que cada vez que el mango pierde poder de succión, se extraiga este filtro, se desocupe y se limpie, para evitar su avería.
 
     .bgr_3.p-2.mb-5(data-aos="fade-down-right")
       h4.mb-0 b. Hornos de reflujo
@@ -119,7 +119,7 @@
         span A nivel industrial, se hace necesario que la producción y el ensamble de las tarjetas sea un proceso más ágil. El ensamble manual es engorroso y toma tiempo, además de requerir de una gran experticia por parte del ensamblador, por esto son muy útiles equipos como el horno de reflujo. 
         span.colr.text-bold Es una máquina de convección, que posee un control sofisticado de temperatura que permite crear el llamado “perfil”, el cual es la curva de temperatura durante el proceso de reflujo de la soldadura.
         .cajon.bgr_2.p-4.mt-4
-          p El reflujo es el proceso mediante el cual la soldadura en pasta se derrite mientras se sueldan así los componentes . 
+          p El reflujo es el proceso mediante el cual la soldadura en pasta se derrite mientras se sueldan así los componentes. 
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-up")
         figure
           img(src='@/assets/curso/tema1/t1-12.png', alt='Texto que describa la imagen')
@@ -214,7 +214,7 @@
         h4 Típica máquina <em>Pick and Place</em> en funcionamiento
         br
         br
-        p Estos equipos son usados, esencialmente, cuando hay en su mayoría componentes de superficie que por su tamaño se hace más complejo su posicionamiento .
+        p Estos equipos son usados, esencialmente, cuando hay en su mayoría componentes de superficie que por su tamaño se hace más complejo su posicionamiento.
     
     p.mb-5 La siguiente figura presenta el proceso que realiza este tipo de equipo
 
@@ -258,7 +258,7 @@
             h4.mb-0 Aumento visual para inspección (ancho de pistas)
           table.pst_2
             tr.bgr_7
-              th(rowspan="2") Ancho de pistas o diámetro de <em>pads1</em>
+              th(rowspan="2") Ancho de pistas o diámetro de <em>pads<sup>1</sup></em>
               th(colspan="2").text-center Potencia de aumento visual
             tr
               th.text-center Rango de inspección
@@ -398,7 +398,7 @@
     .row.mb-5
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         .cajon.bgr_2.p-4.mb-3
-          p.mb-0 No existe gran literatura acerca de las técnicas más adecuadas, las normas solo nos hablan de cómo debe quedar el resultado final y los criterios para determinar los defectos del ensamble en aspectos como la orientación de los componentes, la limpieza, aspectos eléctricos, entre otros .
+          p.mb-0 No existe gran literatura acerca de las técnicas más adecuadas, las normas solo nos hablan de cómo debe quedar el resultado final y los criterios para determinar los defectos del ensamble en aspectos como la orientación de los componentes, la limpieza, aspectos eléctricos, entre otros.
         p Vale la pena resaltar que, luego de inspeccionar las tarjetas a ensamblar en busca de defectos, el paso a seguir es realizar una correcta limpieza de la tarjeta, con alcohol isopropílico; después, se procede a hacer el alistamiento de la documentación necesaria para el ensamble. Es necesario tener disponibles los planos esquemáticos y los diagramas de posicionamiento de los componentes, brindados por el diseñador; estos serán la guía para el ensamblador, ya que le brindarán la información requerida para posicionar cada uno de los componentes.
         span.colr.text-bold En procesos industriales, las máquinas de posicionamiento automático, o <em>Pick and Place</em>, se alimentan de los archivos digitales del diseño para realizar esta tarea de forma automática. 
       .col-12.col-md-6(data-aos="fade-left")

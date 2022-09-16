@@ -176,21 +176,6 @@ export default {
       link:
         'https://www.seeedstudio.com/blog/2021/06/18/13-common-pcb-soldering-problems-to-avoid/',
     },
-    {
-      tema: 'Perfiles de temperatura del proceso de reflujo',
-      referencia:
-        'Microensamble. (2016c). Perfil de temperatura para circuitos impresos.',
-      tipo: 'Sitio web',
-      link:
-        'https://microensamble.com/perfil-de-temperatura-circuitos-impresos/',
-    },
-    {
-      tema: 'Técnica de reflujo',
-      referencia:
-        'Microensamble. (2016a). ¿Cómo se forma la soldadura SMT en los hornos de reflow?',
-      tipo: 'Sitio web',
-      link: 'http://microensamble.com/soldadura-smt-hornos-reflow/',
-    },
   ],
   glosario: [
     {
@@ -230,7 +215,7 @@ export default {
       referencia:
         '<em>Electronics notes (s. f.) Pick and Place Machine for PCB Assembly.</em>',
       link:
-        'http://www.electronicsandyou.com/blog/smt-reflow-soldering-equipment-machine.html',
+        'https://www.electronics-notes.com/articles/constructional_techniques/pcb-assembly-process-manufacture/pick-place-machine.php',
     },
     {
       referencia:
@@ -239,14 +224,12 @@ export default {
     {
       referencia:
         'Microensamble. (2016b). Los intermetálicos en una soldadura, ¿una pesadilla?',
-      link:
-        'http://microensamble.com/los-intermetalicos-una-soldadura-una-pesadilla/',
+      link: 'http://microensamble.com/',
     },
     {
       referencia:
         'Microensamble. (2016d). Precauciones con la mezcla de soldaduras normal con libre de plomo.',
-      link:
-        'http://microensamble.com/precauciones-la-mezcla-soldadura-normal-libre-plomo/',
+      link: 'http://microensamble.com/',
     },
     {
       referencia:

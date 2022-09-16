@@ -61,7 +61,7 @@
       .col-12.col-md-6(data-aos="fade-right")
         p Lograr que este proceso, llamado en inglés <em>reflow</em>, que se traduce literalmente como “reflujo”, pero en un sentido más simple es la fusión de la pasta de soldadura, sea exitoso (es decir, que genere los puntos adecuados de soldadura con una capa intermetálica idónea) se ha vuelto unos de los principales problemas de la industria, ya que un reflujo exitoso no solo depende de un adecuado perfil. El problema se debe considerar desde el mismo diseño.
         .bgr_5.px-5.py-4
-          p.mb-0 Existe, por ejemplo, un fenómeno conocido como “lápida”, en el cual, si no están adecuadamente equilibradas las áreas circundantes de los pad de un elemento de dos pines, como un condensador o una resistencia, al pasar por el horno de reflujo, los condensadores tienden a levantarse y a quedar literalmente como una lápida despegándose de uno de los <em>pads</em>, lo cual obviamente es un defecto grave de la tarjeta .
+          p.mb-0 Existe, por ejemplo, un fenómeno conocido como “lápida”, en el cual, si no están adecuadamente equilibradas las áreas circundantes de los pad de un elemento de dos pines, como un condensador o una resistencia, al pasar por el horno de reflujo, los condensadores tienden a levantarse y a quedar literalmente como una lápida despegándose de uno de los <em>pads</em>, lo cual obviamente es un defecto grave de la tarjeta.
     
     p Hay otras consideraciones importantes, como el diseño de zonas de cobre que sirven como disipadores de calor y que, a su vez, ayudan a mantener la integridad de ciertos circuitos. En este proceso, llega a influir, incluso, la calidad de la pasta de soldadura usada. 
 
@@ -71,7 +71,7 @@
     p.mb-5 El proceso completo puede ilustrarse con la siguiente figura, donde se ve la secuencia completa.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in")
-      h5 Figura 16
+      h5 Figura 15
       span Proceso de reflujo e inspección de calidad
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -108,8 +108,8 @@
 
           .tarjeta.color-acento-botones.p-4(x="37%" y="76%" numero="+")
             .pst_4
-            p En la <b>zona de activación</b> es donde literalmente se activa el proceso, ya que el fundente, al calentarse, protege la unión del óxido y los componentes alcanzan un temperatura segura para reducir la tensión superficial. Idealmente, esta parte de la gráfica debería permanecer prácticamente plana, es decir, a una temperatura constante en este período de tiempo.
-            p.mb-0 En esta zona, puede suceder que, en vez de mantenerse estable la temperatura, esta baje, afectando la activación del <em>flux</em> y, por ende, el calentamiento requerido de los componentes para llegar adecuadamente a la zona de reflow. Esto produce soldaduras frías, que pueden generar grietas en la unión.
+            p En la <b>zona de activación</b> es donde literalmente se activa el proceso, ya que el fundente, al calentarse, protege la unión del óxido y los componentes alcanzan una temperatura segura para reducir la tensión superficial. Idealmente, esta parte de la gráfica debería permanecer prácticamente plana, es decir, a una temperatura constante en este período de tiempo.
+            p.mb-0 En esta zona, puede suceder que, en vez de mantenerse estable la temperatura, esta baje, afectando la activación del <em>flux</em> y, por ende, el calentamiento requerido de los componentes para llegar adecuadamente a la zona de <em>reflow</em>. Esto produce soldaduras frías, que pueden generar grietas en la unión.
 
           .tarjeta.color-acento-botones.p-4(x="54.5%" y="76%" numero="+")
             .pst_4
@@ -119,7 +119,7 @@
 
           .tarjeta.color-acento-botones.p-4(x="70%" y="76%" numero="+")
             .pst_4
-            p La <b>zona de enfriamiento</b> es donde la curva debe describir una pendiente igual a la de subida de la zona de reflow, ya que esto garantiza que la soldadura no se cristalice y termine de formar una adecuada capa intermetálica.
+            p La <b>zona de enfriamiento</b> es donde la curva debe describir una pendiente igual a la de subida de la zona de <em>reflow</em>, ya que esto garantiza que la soldadura no se cristalice y termine de formar una adecuada capa intermetálica.
             p.mb-0 Asimismo, hay que tener presente que una temperatura que baja demasiado rápido generaría, a parte de soldaduras cristalizadas, un riesgo de fractura en los componentes
     
 

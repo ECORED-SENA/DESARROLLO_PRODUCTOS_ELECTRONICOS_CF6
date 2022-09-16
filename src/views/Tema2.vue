@@ -22,9 +22,9 @@
             figure.d-flex.justify-content-center
               img.img90(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
           .col-12.col-md-10
-            p Un ejemplo claro de ello son los conectores de puertos periféricos, como el USB, que, a parte de los pines que hacen la conexión con el puerto, tienen generalmente dos pines más, cuyo propósito principal es el anclaje mecánico del puerto como tal; sin estos pines, la conexión de este elemento quedaría vulnerable a fracturas por desgaste mecánico al conectar y desconectar elementos de este puerto .
+            p Un ejemplo claro de ello son los conectores de puertos periféricos, como el USB, que, a parte de los pines que hacen la conexión con el puerto, tienen generalmente dos pines más, cuyo propósito principal es el anclaje mecánico del puerto como tal; sin estos pines, la conexión de este elemento quedaría vulnerable a fracturas por desgaste mecánico al conectar y desconectar elementos de este puerto.
         .cajon.bgr_2.p-3
-          p.mb-0 La soldadura es el proceso de unir por medio de una fusión dos metales que, en este caso, resultan ser conductores. Esta fusión requiere un proceso térmico de calentamiento, que da como resultado, al fundirse perfectamente los metales, que queden como un solo elemento metálico y conductor .
+          p.mb-0 La soldadura es el proceso de unir por medio de una fusión dos metales que, en este caso, resultan ser conductores. Esta fusión requiere un proceso térmico de calentamiento, que da como resultado, al fundirse perfectamente los metales, que queden como un solo elemento metálico y conductor.
 
     separador
 
@@ -69,7 +69,7 @@
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-up-right")
         p La soldadura con plomo está compuesta en un 63% de estaño con un contenido de 37% de plomo, también existe una proporción de 60/40 de estaño – plomo. Aunque aún se encuentra comercialmente esta soldadura, está destinada a desaparecer porque el plomo es un elemento altamente tóxico para el hombre y la naturaleza, mientras la soldadura sin plomo  es una soldadura que no tiene ese inconveniente y, por lo tanto, se ha venido posicionando cada vez más en la producción de todo tipo de equipos electrónicos.
         .cajon.bgr_2.p-4.mb-3
-          p.mb-0 Según Microensamble (2016): “existe una gran variedad de soldaduras que no contienen plomo, como las aleaciones SnAg3.5 y Sn96.5Ag3Cu0.5 (SAC 305), entre otras ”
+          p.mb-0 Según Microensamble (2016): “existe una gran variedad de soldaduras que no contienen plomo, como las aleaciones SnAg3.5 y Sn96.5Ag3Cu0.5 (SAC 305), entre otras”
         span Ahora bien, dejando a un lado el aspecto químico, 
         span.colr.text-bold lo más importante aquí es tener en cuenta la temperatura a la cual se funden estos dos tipos de soldadura, lo cual genera una de las diferencias más trascendentales a la hora de ensamblar o planear una producción. 
       .col-12.col-md-6(data-aos="fade-up-left")
@@ -117,7 +117,7 @@
         figure
           img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
       .col-12.col-md-6
-        p Los fundentes, por su parte, son básicamente substancias que proveen dos funcionalidades importantes a la hora de soldar :
+        p Los fundentes, por su parte, son básicamente substancias que proveen dos funcionalidades importantes a la hora de soldar:
         ol.lista-ol--cuadro.mb-4
           li 
             .lista-ol--cuadro__vineta
@@ -158,7 +158,7 @@
                   figure.p-5
                     img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
               tr
-                td.bgr_12 En el mercado podemos encontrar presentaciones en jeringa, botes y hasta en lápiz tipo marcador que permite, literalmente, pintar las pistas con la cantidad de <em>flux</em> necesaria .
+                td.bgr_12 En el mercado podemos encontrar presentaciones en jeringa, botes y hasta en lápiz tipo marcador que permite, literalmente, pintar las pistas con la cantidad de <em>flux</em> necesaria.
                   br
                   br
                   p.mb-0.text-center Nota. Tomada de MovilOne (2018).  
@@ -168,11 +168,9 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Métodos de uso y mantenimiento de herramientas
     
-    p El procedimiento general de la soldadura es el mismo, pero se debe tener en cuenta, como siempre, si este es automático o si es manual. En general, el procedimiento para soldar dos piezas se expone en la siguiente figura.
+    p.mb-5 El procedimiento general de la soldadura es el mismo, pero se debe tener en cuenta, como siempre, si este es automático o si es manual. En general, el procedimiento para soldar dos piezas se expone en el siguiente recurso.
 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 15
-      span Procedimiento para soldar piezas con estaño
+    p.text-bold.mb-5 Procedimiento para soldar piezas con estaño
 
     .row.mb-5
       .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
@@ -185,7 +183,7 @@
                 img.img120(src='@/assets/curso/tema2/t2-16.svg', alt='Texto que describa la imagen')
           .row(numero="B" titulo="Unión de las piezas")
             .col-md-8.mb-4.mb-md-0
-              p Ya sea un componente posicionado en la tarjeta o dos cables entorchados, previo a aplicar la soldadura, las piezas deben estar juntas y en contacto mecánico,
+              p Ya sea un componente posicionado en la tarjeta o dos cables entorchados, previo a aplicar la soldadura, las piezas deben estar juntas y en contacto mecánico.
             .col-md-3
               figure.d-flex.justify-content-center
                 img.img120(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
@@ -219,7 +217,7 @@
       SlyderA.bgr_9(tipo="b")
         .row.p-4
           .col-md-4.mb-4.mb-md-0 
-            p Se recomienda el uso de guantes de nitrilo para evitar contaminarse con el plomo de la soldadura, si es el caso, o para evitar contaminar con el sudor los pines, las pistas y pads de la tarjeta. Este tipo de contaminación afecta de gran manera la soldadura.
+            p Se recomienda el uso de guantes de nitrilo para evitar contaminarse con el plomo de la soldadura, si es el caso, o para evitar contaminar con el sudor los pines, las pistas y <em>pads</em> de la tarjeta. Este tipo de contaminación afecta de gran manera la soldadura.
           .col-md-8
             figure
               img(src='@/assets/curso/tema2/t2-21.png', alt='Texto que describa la imagen')
@@ -262,7 +260,7 @@
         figure.d-flex.justify-content-center
           img.img90(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
       .col-12.col-md-11
-        span.colr.text-bold Un consejo muy útil es que, en caso de que los componentes o la tarjeta hayan sufrido contaminación, se deben limpiar con alcohol isopropílico.
+        span.colr.text-bold Un consejo muy útil es que, en caso de que los componentes o la tarjeta hayan sufrido contaminación, se deben limpiar con alcohol isopropílico. 
         | También algunos pines de considerable tamaño, como los de las borneras, pueden ser ligeramente raspados con la ayuda de un bisturí, antes de proceder a hacer la soldadura. Este último procedimiento no es recomendado con componentes nuevos y sellados.
     
     separador
@@ -278,7 +276,7 @@
           img(src='@/assets/curso/tema2/t2-27.png', alt='Texto que describa la imagen')
       .col-12.col-md-6(data-aos="fade-left")
         .bgr_5.p-4.mb-3
-          p.mb-0 Desafortunadamente, los mejores fundentes son extremadamente resinosos (grasosos) y,  al enfriarse, se vuelven conductores, generando resistencias parásitas y cortos dentro de la placa ensamblada .
+          p.mb-0 Desafortunadamente, los mejores fundentes son extremadamente resinosos (grasosos) y,  al enfriarse, se vuelven conductores, generando resistencias parásitas y cortos dentro de la placa ensamblada.
         p A nivel industrial, se usan lavadoras que utilizan ultrasonido, combinado con alcohol isopropílico, para limpiar las impurezas. Su funcionamiento es muy simple, en realidad. Se trata de un receptáculo metálico que puede vibrar a muy altas frecuencias; dentro de este, se pone una cantidad de alcohol que apenas cubre las tarjetas que son puestas allí; la lavadora, al vibrar, genera ondas dentro del alcohol que disuelven y desprenden las impurezas.
         .row
           .col-12.col-md-3.mb-3.mb-md-0
