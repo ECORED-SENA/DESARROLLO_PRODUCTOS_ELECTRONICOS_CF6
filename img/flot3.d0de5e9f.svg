@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.477" height="61.176" viewBox="0 0 50.477 61.176">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectángulo_348136" data-name="Rectángulo 348136" d="M.955,0H40.34A.955.955,0,0,1,41.3.955V60.221a.955.955,0,0,1-.955.955H.954A.954.954,0,0,1,0,60.222V.955A.955.955,0,0,1,.955,0Z" fill="#ffd947"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_348138" data-name="Rectángulo 348138" width="3.059" height="61.176" fill="#263238"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_348139" data-name="Rectángulo 348139" width="50.473" height="61.176" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_924952" data-name="Grupo 924952" transform="translate(11590 15319.999)">
+    <g id="Grupo_924646" data-name="Grupo 924646" transform="translate(-11590 -15319.999)">
+      <rect id="Rectángulo_348131" data-name="Rectángulo 348131" width="9.181" height="2.29" transform="translate(41.295 6.256)" fill="#e7e9ee"/>
+      <rect id="Rectángulo_348132" data-name="Rectángulo 348132" width="9.181" height="2.294" transform="translate(41.295 48.314)" fill="#e7e9ee"/>
+      <rect id="Rectángulo_348133" data-name="Rectángulo 348133" width="9.181" height="2.294" transform="translate(41.295 41.43)" fill="#e7e9ee"/>
+      <rect id="Rectángulo_348134" data-name="Rectángulo 348134" width="9.181" height="2.294" transform="translate(41.295 55.198)" fill="#e7e9ee"/>
+      <g id="Grupo_924641" data-name="Grupo 924641" transform="translate(0 0)">
+        <g id="Grupo_924640" data-name="Grupo 924640" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_348135" data-name="Rectángulo 348135" width="72.458" height="72.458" transform="translate(-30.588 30.588) rotate(-45)" fill="#ffd947"/>
+        </g>
+      </g>
+      <g id="Grupo_924643" data-name="Grupo 924643" transform="translate(38.236 0)">
+        <g id="Grupo_924642" data-name="Grupo 924642" clip-path="url(#clip-path-2)">
+          <rect id="Rectángulo_348137" data-name="Rectángulo 348137" width="45.421" height="45.421" transform="translate(-30.588 30.588) rotate(-45)" fill="#263238"/>
+        </g>
+      </g>
+      <g id="Grupo_924645" data-name="Grupo 924645" transform="translate(0 0)">
+        <g id="Grupo_924644" data-name="Grupo 924644" clip-path="url(#clip-path-3)">
+          <path id="Trazado_646625" data-name="Trazado 646625" d="M2.156,53.933a.879.879,0,0,1-.878-.878V2.963A1.641,1.641,0,0,1,2.921,1.32H21.274a.881.881,0,1,1,0,1.762H3l.032,49.973a.88.88,0,0,1-.881.878" transform="translate(2.816 2.908)" fill="#263238"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
